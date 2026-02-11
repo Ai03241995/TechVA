@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aileen Jumadas Website Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/141d0e09f4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <img src="images/logo.png" class="logo">
+        <ul id="sidemenu">
+          <li><a href='#header'>Home</a></li>
+          <li><a href='#about'>About</a></li>
+          <li><a href='#services'>Services</a></li>
+          <li><a href='#portfolio'>Portfolio</a></li>
+          <li><a href='#contact'>Contact</a></li>
+          <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+      </nav>
+      <div class="header-text">
+        <p>Admin + Tech Operations VA</p>
+        <h1> Hi, I'm <span>Aileen </span> <br> Jumadas from Philippines</h1>
+      </div>
+    </div>
+  </div>
+  <!------about------>
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="images/dp.png">
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About Me</h1>
+          <style>
+            .justified-text {
+                text-align: justify;
+            }
+        </style>
+          <p class="justified-text">Hi! I'm Aileen Jumadas, I help businesses streamline operations, manage content, and optimize workflows. My services include admin support, simple automation, and social media support. 
+          </p>
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li><span>Administrative Support</span><br>Admin Support</li>
+              <li><span>Automation</span><br>Simple Automation</li>
+              <li><span>Social Media </span><br>Social Media Support</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="experience">
+            <ul>
+              <li><span>2025</span><br>Assistant Maintenance Coordinator at Taganito Mining Corporation</li>
+              <li><span>2024</span><br>Video Editor</li>
+              <li><span>2023 - 2024</span><br>Social Media Management at Six Figure Business Coaching</li>
+              <li><span>2017 - 2023</span><br>Administrative Assistant at DPWH</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="education">
+            <ul>
+              <li><span>2024</span><br>Design Training at DICT</li>
+              <li><span>2017</span><br>Bachelor of Science in Computer Engineering</li>
+              <li><span>2011</span><br>Claver National High School</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--------services-------->
+  <div id="services">
+    <div class="container"></div>
+    <h1 class="sub-title">My Services</h1>
+    <div class="services-list">
+
+      <div>
+        <i class="fa-solid fa-code"></i>
+        <h2>Admin Support</h2>
+        <p>I handle spreadsheets, documents, and emails efficiently, keeping your operations organized and hassle-free.</p>
+        <a href="https://docs.google.com/spreadsheets/d/1QiKUf9_1NY66vE2mNFfMgRjdyZ0KlY3c_LazQf9PKV8/edit?usp=sharing">Learn more!</a>
+      </div>
+      <div>
+        <i class="fa-solid fa-hashtag"></i>
+        <h2>Simple Automation</h2>
+        <p>I designed an “Operations Task Intake & Tracking System” using Google Forms and Make.com. Form responses are automatically added to a spreadsheet, and submitters receive a confirmation email—saving time and reducing manual work.</p>
+        <a href="https://drive.google.com/drive/folders/1qNozzGTQOcQOquio9Pi6qcFmRF9lNd1o?usp=sharing">Learn more!</a>
+      </div>
+      <div>
+        <i class="fa-solid fa-user-tie"></i>
+        <h2>Social Media Support</h2>
+        <p>I help manage and schedule social media content, including reels, shorts, and graphics, keeping your online presence consistent and engaging.</p>
+        <a href="https://drive.google.com/drive/folders/1oV6mSmnMwe5R9hnifXgoxP55CYhoXrMF?usp=sharing">Learn more!</a>
+      </div>
+    </div>
+  </div>
+  <!----------------------portfolio------------------------>
+  <div id="portfolio">
+    <div class="container"></div>
+    <h1 class="sub-title">My Work</h1>
+    <div class="portfolio-list">
+
+      <div class="work">
+        <img src="images/admin.jpg">
+          <div class="layer">
+            <h3>Admin Support</h3>
+              <p>Organized client spreadsheet for monthly expenses, making tracking and approvals faster.</p>
+                <a href="https://docs.google.com/spreadsheets/d/1QiKUf9_1NY66vE2mNFfMgRjdyZ0KlY3c_LazQf9PKV8/edit?usp=sharing"><i class="fa-solid fa-square-arrow-up-right"></i></a>
+          </div>
+      </div>
+
+      <div class="work">
+        <img src="images/auto.png">
+        <div class="layer">
+          <h3>Simple Automation</h3>
+            <p>Created an Operations Task Intake Form with fields like Email, Equipment Name, Description, Priority, Due Date, and Submitted By.</p>
+              <a href="https://drive.google.com/drive/folders/1qNozzGTQOcQOquio9Pi6qcFmRF9lNd1o?usp=sharing"><i class="fa-solid fa-square-arrow-up-right"></i></a>
+        </div>
+       </div>
+
+       <div class="work">
+        <img src="images/XP43 quote ig.png">
+        <div class="layer">
+          <h3>Social Media Support</h3>
+            <p>Created Instagram reel for client promotion and engagement</p>
+              <a href="https://drive.google.com/drive/folders/1oV6mSmnMwe5R9hnifXgoxP55CYhoXrMF?usp=sharing"><i class="fa-solid fa-square-arrow-up-right"></i></a>
+        </div>
+       </div>
+
+    </div>
+
+  </div>
+  <!--------contact--------->
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="sub-title">Contact Me</h1>
+          <p><i class="fa-solid fa-square-envelope"></i> csu.aandoy@gmail.com</p>
+          <p><i class="fa-solid fa-phone"></i> +639064956168</p>
+          <div class="social-icons">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          </div>
+        </div>
+        <div class="contact-right">
+          <form name="submit-to-google-sheet" action="/submit" method="post">
+
+            <input type="text" name="Name" placeholder="Your Name:" required>
+            <input type="email" name="Email" placeholder="Your Email:" required>
+            <textarea name="message" rows="6" placeholder="Type your message here..." required></textarea>
+            <button type="submit" class="btn">Submit</button>
+      
+          </form>
+          <span id="msg"></span>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright © Aileen. Made with <i class="fa-solid fa-heart"></i> LOVE.</p>
+      </div>
+
+    </div>
+
+<script>
+
+  var tablinks = document.getElementsByClassName("tab-links");
+  var tabcontents = document.getElementsByClassName("tab-contents");
+  function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+  }
+
+</script>
+
+<script>
+  var sidemeu = document.getElementById("sidemenu");
+
+  function openmenu(){
+    sidemeu.style.right = "0";
+  }
+  function closemenu(){
+    sidemeu.style.right = "-200px";
+  }
+</script>
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbyhXgJ0wXB37UuHjUPyRdp0EgPOUNp49eIIhsS3DEp0BKPwpS9qE9DcEOUCshWc8iE-/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message sent successfully!"
+        setTimeout(function(){
+          msg.innerHTML = ""
+        } ,5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+</body>
+</html>
